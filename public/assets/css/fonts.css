@@ -1,0 +1,23 @@
+@font-face {
+	font-family: KumbhSans;
+	src: url('../../fonts/KumbhSans-SemiBold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: KumbhSans;
+	src: url('../../fonts/KumbhSans-SemiBold.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: KumbhSans;
+	src: url('../../fonts/KumbhSans-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: KumbhSans;
+	src: url('../../fonts/KumbhSans-Medium.ttf');
+	font-weight: 300;
+}

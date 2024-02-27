@@ -1,0 +1,30 @@
+---
+import ProfileExtraInfo from '@/components/CardProfileComponent/ProfileExtraInfo.astro';
+---
+
+<div
+	class='bg-white w-full mb:w-auto min-w-96 rounded-2xl flex flex-col relative shadow-gray-600 shadow z-10'
+>
+	<section
+		class='relative bg-card-patter bg-center bg-no-repeat bg-cover w-full h-36 rounded-t-2xl'
+	>
+	</section>
+	<section class='relative w-96 flex flex-col'>
+		<img
+			src='/images/image-victor.jpg'
+			alt='profile picture'
+			class='rounded-full border-white border-4 relative mx-auto -top-10 w-28 -m-3'
+		/>
+		<h2 class='text-center text-2xl font-bold text-gray-800'>
+			Victor Crest
+			<span class='text-gray-400 font-normal'>26</span>
+		</h2>
+		<p class='text-center mb-4 mt-2 font-normal text-gray-800'>London</p>
+		<hr />
+		<section class='flex justify-around py-5'>
+			<ProfileExtraInfo amount='80K' description='Followers' />
+			<ProfileExtraInfo amount='803K' description='Likes' />
+			<ProfileExtraInfo amount='1.4K' description='Photos' />
+		</section>
+	</section>
+</div>
